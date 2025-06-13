@@ -1,0 +1,1615 @@
+1. Escreva um trecho de código para criar os seguintes tipos de dados compostos:
+   • Horário: composto de hora, minutos e segundos.
+   • Data: composto de dia, mês e ano.
+   • Compromisso: composto de uma data, horário e texto que descreve o compromisso.
+
+2. Implemente um programa que leia o nome, a idade e o endereço de uma pessoa e armazene os dados em uma estrutura.
+
+3. Construa uma estrutura Aluno com nome, número de matrícula e curso. Leia do usuário a informação de 5 alunos, armazene em um vetor dessa estrutura e imprima os dados na tela.
+
+4. Crie uma estrutura representando os alunos de um determinado curso. A estrutura deve conter a matrícula do aluno, nome, nota da primeira prova, nota da segunda prova e nota da terceira prova.
+   (a) Permita ao usuário entrar com os dados de 5 alunos.
+   (b) Encontre o aluno com maior nota da primeira prova.
+   (c) Encontre o aluno com maior média geral.
+   (d) Encontre o aluno com menor média geral.
+   (e) Para cada aluno, diga se ele foi aprovado ou reprovado, considerando o valor 6 para aprovação.
+
+5. Considerando a estrutura:
+   ```c
+   struct Vetor {
+       float x;
+       float y;
+       float z;
+   };
+6. Faça um programa que leia os seguintes dados de até 10 alunos: matrícula, nome, código da disciplina, nota 1 e nota 2. Armazene os dados em um vetor de estruturas. Em seguida, calcule e exiba a média final de cada aluno, considerando uma média ponderada (nota 1 com peso 1.0 e nota 2 com peso 2.0).
+
+7. Faça um programa que converta coordenadas polares para cartesianas:
+   • Crie uma estrutura para representar um ponto em coordenadas polares, contendo raio (r) e argumento (a) em radianos.
+   • Crie uma estrutura para representar um ponto em coordenadas cartesianas, contendo x e y.
+   • No programa principal, leia um ponto em coordenadas polares e calcule as coordenadas cartesianas correspondentes, usando as fórmulas: x = r * cos(a) e y = r * sin(a). Exiba o ponto convertido.
+
+8. Faça um programa que armazene os dados de um funcionário de uma empresa em uma estrutura composta, contendo: nome, idade, sexo (M/F), CPF, data de nascimento, código do setor (0–99), cargo (string de até 30 caracteres) e salário. Os dados devem ser lidos do usuário e exibidos na tela.
+
+9. Faça um programa que realize operações com números complexos:
+   • Crie uma estrutura para representar um número complexo com parte real e parte imaginária.
+   • Leia dois números complexos (z e w).
+   • Calcule e exiba a soma, subtração e produto entre z e w.
+   • Calcule e exiba o módulo de z e w.
+
+10. Faça um programa que utilize uma estrutura para armazenar o nome, endereço e telefone de 5 pessoas. Leia os dados do usuário e, ao final, exiba-os em ordem alfabética pelo nome.
+
+
+11. Faça um programa que leia os dados de 10 alunos (nome, matrícula e média final), armazenando em um vetor. Depois de lidos os dados, divida-os em dois novos vetores: um com os aprovados e outro com os reprovados, considerando como média mínima para aprovação o valor 5.0. Exiba os dados dos aprovados e, em seguida, dos reprovados.
+
+12. Escolha um jogo de cartas baseado em um baralho tradicional (cada carta tem seu naipe e valor) ou do tipo “super trunfo” (cada carta possui um conjunto de atributos). Implemente a distribuição (sorteio) de cartas para dois jogadores, de forma que cada jogador receba 5 cartas. Exiba na tela as cartas recebidas por cada jogador.
+
+13. Peça ao usuário para digitar seus dados pessoais: nome, endereço, data de nascimento, cidade, CEP e e-mail. Verifique se as informações de data de nascimento, CEP e e-mail são válidas. Exiba os dados ao usuário se estiverem todos corretos, ou indique quais informações são inválidas.
+
+14. Faça um programa que leia os dados de 5 carros: marca (máximo 15 letras), ano e preço. Leia um valor p e exiba as informações de todos os carros com preço menor que p. Repita esse processo até que o valor de p seja igual a 0.
+
+15. Faça um programa que leia os dados de 5 livros: título (máximo 30 letras), autor (máximo 15 letras) e ano. Permita que o usuário busque livros pelo título. Exiba os dados de todos os livros encontrados.
+
+16. Faça um programa que funcione como uma agenda de compromissos:
+    • Crie e leia um vetor com 5 compromissos, contendo uma descrição (máximo 60 letras) e a data. A data deve ser outra estrutura contendo dia, mês e ano.
+    • Leia dois inteiros M e A (mês e ano) e exiba todos os compromissos do mês M do ano A.
+    • Repita o procedimento até que M seja igual a 0.
+
+17. Faça um programa para controlar o consumo de energia dos eletrodomésticos de uma casa:
+    • Crie e leia os dados de 5 eletrodomésticos, contendo nome (máximo 15 letras), potência (em kW) e tempo ativo por dia (em horas).
+    • Leia um tempo t (em dias), calcule e exiba o consumo total da casa no período e o consumo relativo de cada eletrodoméstico (em porcentagem do total).
+
+18. Faça um programa que gerencie o estoque de um mercado:
+    • Crie e leia um vetor de 5 produtos, contendo código (inteiro), nome (máximo 15 letras), preço e quantidade.
+    • Leia um pedido com código do produto e a quantidade desejada. Localize o produto e, se houver quantidade suficiente, atualize o estoque e informe o usuário.
+    • Repita até que seja lido um código igual a zero. Se não for possível atender ao pedido, exiba uma mensagem de erro adequada.
+
+19. Faça um programa para controlar o fluxo de voos nos aeroportos de um país. Considere V = 5 (voos) e A = 5 (aeroportos):
+    • Crie e leia um vetor de voos, onde cada voo contém o código do aeroporto de origem e o código do aeroporto de destino.
+    • Crie um vetor de aeroportos, onde cada aeroporto contém seu código, a quantidade de voos que saem e a quantidade de voos que chegam.
+    • Cada aeroporto deve ser identificado por um código inteiro entre 0 e (A - 1). Não aceite códigos inválidos.
+
+20. Faça um programa para armazenar um livro de receitas:
+    • Crie um vetor de 5 receitas, contendo nome (máximo 25 letras), quantidade de ingredientes e o vetor de ingredientes.
+    • Para cada receita, leia o nome e a quantidade de ingredientes, depois leia os ingredientes (nome e quantidade).
+    • Permita buscar uma receita pelo nome. Se encontrada, exiba seus ingredientes. Repita o processo até que uma string vazia seja digitada.
+
+21. Faça um programa que armazene filmes produzidos por vários diretores:
+    • Crie e leia um vetor de 5 diretores, cada um contendo nome (máximo 20 letras), quantidade de filmes e um vetor de filmes.
+    • Após ler a quantidade de filmes de cada diretor, leia os dados de cada filme: nome, ano e duração.
+    • Permita buscar um diretor pelo nome e exiba os filmes que ele produziu. Repita o processo até que uma string vazia seja digitada.
+
+22. (a) Crie um vetor Cadastro com 5 elementos.
+(b) Permita ao usuario entrar com dados para preencher esse 5 cadastros. ´
+(c) Encontre a pessoa com maior idade entre os cadastrados
+(d) Encontre as pessoas do sexo masculino
+(e) Encontre as pessoas com salario maior que 1000. ´
+(f) Imprima os dados da pessoa cuja identidade seja igual a um valor fornecido pelo
+usuario
+
+23.  Escreva um programa que receba dois structs do tipo dma, cada um representando uma
+data valida, e calcule o n ´ umero de dias que decorreram entre as duas datas. ´
+struct dma {
+int dia;
+int mes;
+int ano;
+};
+
+24. 
+24. Fazer um programa para simular uma agenda de telefones. Para cada pessoa devem-se
+ter os seguintes dados:
+• Nome
+• E-mail
+• Enderec¸o (contendo campos para Rua, numero, complemento, bairro, cep, cidade, ´
+estado, pa´ıs).
+• Telefone (contendo campo para DDD e numero) ´
+• Data de aniversario (contendo campo para dia, m ´ es, ano). ˆ
+• Observac¸oes: Uma linha (string) para alguma observac¸ ˜ ao especial. ˜
+(a) Definir a estrutura acima.
+(b) Declarar a variavel agenda (vetor) com capacidade de agendar at ´ e 100 nomes. ´
+(c) Definir um bloco de instruc¸oes busca por primeiro nome: Imprime os dados da ˜
+pessoa com esse nome (se tiver mais de uma pessoa, imprime para todas).
+(d) Definir um bloco de instruc¸oes busca por m ˜ es de anivers ˆ ario: Imprime os dados de ´
+todas as pessoas que fazem aniversario nesse m ´ es. ˆ
+(e) Definir um bloco de instruc¸oes busca por dia e m ˜ es de anivers ˆ ario: Imprime os ´
+dados de todas as pessoas que fazem aniversario nesse dia e m ´ es. ˆ
+(f) Definir um bloco de instruc¸oes insere pessoa: Insere por ordem alfab ˜ etica de nome. ´
+(g) Definir um bloco de instruc¸oes retira pessoa: Retira todos os dados dessa pessoa e ˜
+desloca todos os elementos seguintes do vetor para a posic¸ao anterior. ˜
+(h) Definir um bloco de instruc¸oes imprime agenda com as opc¸ ˜ oes: ˜
+• Imprime nome, telefone e e-mail.
+• Imprime todos os dados.
+(i) O programa deve ter um menu principal oferecendo as opc¸oes acima.
+
+
+// 1
+#include <stdio.h>
+
+typedef struct {
+    int hora;
+    int minutos;
+    int segundos;
+} Horario;
+
+typedef struct {
+    int dia;
+    int mes;
+    int ano;
+} Data;
+
+typedef struct {
+    Data data;
+    Horario horario;
+    char descricao[100];
+} Compromisso;
+
+int main() {
+    // Example usage
+    Compromisso reuniao = {
+        {15, 10, 2023},
+        {14, 30, 0},
+        "Reunião de equipe"
+    };
+    return 0;
+}
+
+// 2
+#include <stdio.h>
+
+typedef struct {
+    char nome[50];
+    int idade;
+    char endereco[100];
+} Pessoa;
+
+int main() {
+    Pessoa p;
+    
+    printf("Digite o nome: ");
+    fgets(p.nome, 50, stdin);
+    printf("Digite a idade: ");
+    scanf("%d", &p.idade);
+    getchar(); // Clear buffer
+    printf("Digite o endereço: ");
+    fgets(p.endereco, 100, stdin);
+    
+    printf("\nDados:\nNome: %sIdade: %d\nEndereço: %s", p.nome, p.idade, p.endereco);
+    return 0;
+}
+
+// 3
+#include <stdio.h>
+
+typedef struct {
+    char nome[50];
+    int matricula;
+    char curso[30];
+} Aluno;
+
+int main() {
+    Aluno alunos[5];
+    
+    for(int i = 0; i < 5; i++) {
+        printf("\nAluno %d:\n", i+1);
+        printf("Nome: ");
+        scanf(" %49[^\n]", alunos[i].nome);
+        printf("Matrícula: ");
+        scanf("%d", &alunos[i].matricula);
+        printf("Curso: ");
+        scanf(" %29[^\n]", alunos[i].curso);
+    }
+    
+    printf("\nDados dos alunos:\n");
+    for(int i = 0; i < 5; i++) {
+        printf("\nAluno %d:\nNome: %s\nMatrícula: %d\nCurso: %s\n",
+               i+1, alunos[i].nome, alunos[i].matricula, alunos[i].curso);
+    }
+    return 0;
+}
+
+// 4
+#include <stdio.h>
+
+typedef struct {
+    int matricula;
+    char nome[50];
+    float nota1, nota2, nota3;
+} Aluno;
+
+int main() {
+    Aluno alunos[5];
+    
+    // (a) Input data
+    for(int i = 0; i < 5; i++) {
+        printf("\nAluno %d:\n", i+1);
+        printf("Matrícula: ");
+        scanf("%d", &alunos[i].matricula);
+        printf("Nome: ");
+        scanf(" %49[^\n]", alunos[i].nome);
+        printf("Notas (1, 2, 3): ");
+        scanf("%f %f %f", &alunos[i].nota1, &alunos[i].nota2, &alunos[i].nota3);
+    }
+    
+    // (b) Highest first test score
+    int maiorNota1 = 0;
+    for(int i = 1; i < 5; i++) {
+        if(alunos[i].nota1 > alunos[maiorNota1].nota1) {
+            maiorNota1 = i;
+        }
+    }
+    printf("\nAluno com maior nota na primeira prova: %s (Nota: %.1f)\n",
+           alunos[maiorNota1].nome, alunos[maiorNota1].nota1);
+    
+    // (c) Highest average
+    int maiorMedia = 0;
+    float media[5];
+    for(int i = 0; i < 5; i++) {
+        media[i] = (alunos[i].nota1 + alunos[i].nota2 + alunos[i].nota3)/3;
+        if(media[i] > media[maiorMedia]) {
+            maiorMedia = i;
+        }
+    }
+    printf("Aluno com maior média: %s (Média: %.1f)\n",
+           alunos[maiorMedia].nome, media[maiorMedia]);
+    
+    // (d) Lowest average
+    int menorMedia = 0;
+    for(int i = 1; i < 5; i++) {
+        if(media[i] < media[menorMedia]) {
+            menorMedia = i;
+        }
+    }
+    printf("Aluno com menor média: %s (Média: %.1f)\n",
+           alunos[menorMedia].nome, media[menorMedia]);
+    
+    // (e) Pass/fail
+    printf("\nSituação dos alunos:\n");
+    for(int i = 0; i < 5; i++) {
+        printf("%s: %s\n", alunos[i].nome, media[i] >= 6.0 ? "Aprovado" : "Reprovado");
+    }
+    
+    return 0;
+}
+
+// 5
+#include <stdio.h>
+
+typedef struct {
+    float x;
+    float y;
+    float z;
+} Vetor;
+
+Vetor somaVetores(Vetor a, Vetor b) {
+    Vetor resultado;
+    resultado.x = a.x + b.x;
+    resultado.y = a.y + b.y;
+    resultado.z = a.z + b.z;
+    return resultado;
+}
+
+int main() {
+    Vetor v1, v2, resultado;
+    
+    printf("Digite as componentes do primeiro vetor (x y z): ");
+    scanf("%f %f %f", &v1.x, &v1.y, &v1.z);
+    printf("Digite as componentes do segundo vetor (x y z): ");
+    scanf("%f %f %f", &v2.x, &v2.y, &v2.z);
+    
+    resultado = somaVetores(v1, v2);
+    printf("Soma dos vetores: (%.2f, %.2f, %.2f)\n",
+           resultado.x, resultado.y, resultado.z);
+    
+    return 0;
+}
+
+// 6
+#include <stdio.h>
+
+typedef struct {
+    int matricula;
+    char nome[50];
+    char codigoDisciplina[20];
+    float nota1, nota2;
+} Aluno;
+
+int main() {
+    Aluno alunos[10];
+    
+    for(int i = 0; i < 10; i++) {
+        printf("\nAluno %d:\n", i+1);
+        printf("Matrícula: ");
+        scanf("%d", &alunos[i].matricula);
+        printf("Nome: ");
+        scanf(" %49[^\n]", alunos[i].nome);
+        printf("Código da disciplina: ");
+        scanf(" %19[^\n]", alunos[i].codigoDisciplina);
+        printf("Notas (1 e 2): ");
+        scanf("%f %f", &alunos[i].nota1, &alunos[i].nota2);
+    }
+    
+    printf("\nListagem de alunos com médias:\n");
+    for(int i = 0; i < 10; i++) {
+        float media = (alunos[i].nota1 * 1.0 + alunos[i].nota2 * 2.0) / 3.0;
+        printf("%s (Matrícula: %d) - Média: %.2f\n",
+               alunos[i].nome, alunos[i].matricula, media);
+    }
+    
+    return 0;
+}
+
+// 7
+#include <stdio.h>
+#include <math.h>
+
+typedef struct {
+    float r;
+    float a;
+} Polar;
+
+typedef struct {
+    float x;
+    float y;
+} Cartesian;
+
+Cartesian polarToCartesian(Polar p) {
+    Cartesian c;
+    c.x = p.r * cos(p.a);
+    c.y = p.r * sin(p.a);
+    return c;
+}
+
+int main() {
+    Polar pontoPolar;
+    Cartesian pontoCartesiano;
+    
+    printf("Digite as coordenadas polares (raio e ângulo em radianos): ");
+    scanf("%f %f", &pontoPolar.r, &pontoPolar.a);
+    
+    pontoCartesiano = polarToCartesian(pontoPolar);
+    printf("Coordenadas cartesianas: (%.2f, %.2f)\n",
+           pontoCartesiano.x, pontoCartesiano.y);
+    
+    return 0;
+}
+
+// 8
+#include <stdio.h>
+
+typedef struct {
+    int dia;
+    int mes;
+    int ano;
+} DataNascimento;
+
+typedef struct {
+    char nome[50];
+    int idade;
+    char sexo;
+    char cpf[15];
+    DataNascimento nascimento;
+    int codigoSetor;
+    char cargo[30];
+    float salario;
+} Funcionario;
+
+int main() {
+    Funcionario f;
+    
+    printf("Digite os dados do funcionário:\n");
+    printf("Nome: ");
+    scanf(" %49[^\n]", f.nome);
+    printf("Idade: ");
+    scanf("%d", &f.idade);
+    printf("Sexo (M/F): ");
+    scanf(" %c", &f.sexo);
+    printf("CPF: ");
+    scanf(" %14s", f.cpf);
+    printf("Data de nascimento (DD MM AAAA): ");
+    scanf("%d %d %d", &f.nascimento.dia, &f.nascimento.mes, &f.nascimento.ano);
+    printf("Código do setor (0-99): ");
+    scanf("%d", &f.codigoSetor);
+    printf("Cargo: ");
+    scanf(" %29[^\n]", f.cargo);
+    printf("Salário: ");
+    scanf("%f", &f.salario);
+    
+    printf("\nDados do funcionário:\n");
+    printf("Nome: %s\nIdade: %d\nSexo: %c\nCPF: %s\n", f.nome, f.idade, f.sexo, f.cpf);
+    printf("Data de nascimento: %02d/%02d/%d\n", f.nascimento.dia, f.nascimento.mes, f.nascimento.ano);
+    printf("Setor: %d\nCargo: %s\nSalário: R$ %.2f\n",
+           f.codigoSetor, f.cargo, f.salario);
+    
+    return 0;
+}
+
+// 9
+#include <stdio.h>
+#include <math.h>
+
+typedef struct {
+    float real;
+    float imag;
+} Complexo;
+
+Complexo somaComplexos(Complexo a, Complexo b) {
+    Complexo res;
+    res.real = a.real + b.real;
+    res.imag = a.imag + b.imag;
+    return res;
+}
+
+Complexo subtraiComplexos(Complexo a, Complexo b) {
+    Complexo res;
+    res.real = a.real - b.real;
+    res.imag = a.imag - b.imag;
+    return res;
+}
+
+Complexo multiplicaComplexos(Complexo a, Complexo b) {
+    Complexo res;
+    res.real = a.real * b.real - a.imag * b.imag;
+    res.imag = a.real * b.imag + a.imag * b.real;
+    return res;
+}
+
+float moduloComplexo(Complexo a) {
+    return sqrt(a.real * a.real + a.imag * a.imag);
+}
+
+int main() {
+    Complexo z, w;
+    
+    printf("Digite a parte real e imaginária de z: ");
+    scanf("%f %f", &z.real, &z.imag);
+    printf("Digite a parte real e imaginária de w: ");
+    scanf("%f %f", &w.real, &w.imag);
+    
+    Complexo soma = somaComplexos(z, w);
+    Complexo subtracao = subtraiComplexos(z, w);
+    Complexo produto = multiplicaComplexos(z, w);
+    float mod_z = moduloComplexo(z);
+    float mod_w = moduloComplexo(w);
+    
+    printf("\nResultados:\n");
+    printf("Soma: %.2f + %.2fi\n", soma.real, soma.imag);
+    printf("Subtração: %.2f + %.2fi\n", subtracao.real, subtracao.imag);
+    printf("Produto: %.2f + %.2fi\n", produto.real, produto.imag);
+    printf("Módulo de z: %.2f\n", mod_z);
+    printf("Módulo de w: %.2f\n", mod_w);
+    
+    return 0;
+}
+
+// 10
+#include <stdio.h>
+#include <string.h>
+
+typedef struct {
+    char nome[50];
+    char endereco[100];
+    char telefone[15];
+} Pessoa;
+
+void ordenaAlfabeticamente(Pessoa pessoas[], int n) {
+    for(int i = 0; i < n-1; i++) {
+        for(int j = i+1; j < n; j++) {
+            if(strcmp(pessoas[i].nome, pessoas[j].nome) > 0) {
+                Pessoa temp = pessoas[i];
+                pessoas[i] = pessoas[j];
+                pessoas[j] = temp;
+            }
+        }
+    }
+}
+
+int main() {
+    Pessoa pessoas[5];
+    
+    for(int i = 0; i < 5; i++) {
+        printf("\nPessoa %d:\n", i+1);
+        printf("Nome: ");
+        scanf(" %49[^\n]", pessoas[i].nome);
+        printf("Endereço: ");
+        scanf(" %99[^\n]", pessoas[i].endereco);
+        printf("Telefone: ");
+        scanf(" %14s", pessoas[i].telefone);
+    }
+    
+    ordenaAlfabeticamente(pessoas, 5);
+    
+    printf("\nPessoas em ordem alfabética:\n");
+    for(int i = 0; i < 5; i++) {
+        printf("\nNome: %s\nEndereço: %s\nTelefone: %s\n",
+               pessoas[i].nome, pessoas[i].endereco, pessoas[i].telefone);
+    }
+    
+    return 0;
+}
+
+// 11
+#include <stdio.h>
+#include <string.h>
+
+typedef struct {
+    char nome[50];
+    int matricula;
+    float media;
+} Aluno;
+
+void separaAprovados(Aluno todos[], Aluno aprovados[], Aluno reprovados[], int *nAprov, int *nReprov) {
+    *nAprov = *nReprov = 0;
+    for(int i = 0; i < 10; i++) {
+        if(todos[i].media >= 5.0) {
+            aprovados[(*nAprov)++] = todos[i];
+        } else {
+            reprovados[(*nReprov)++] = todos[i];
+        }
+    }
+}
+
+int main() {
+    Aluno alunos[10], aprovados[10], reprovados[10];
+    int nAprov, nReprov;
+    
+    for(int i = 0; i < 10; i++) {
+        printf("\nAluno %d:\n", i+1);
+        printf("Nome: ");
+        scanf(" %49[^\n]", alunos[i].nome);
+        printf("Matrícula: ");
+        scanf("%d", &alunos[i].matricula);
+        printf("Média final: ");
+        scanf("%f", &alunos[i].media);
+    }
+    
+    separaAprovados(alunos, aprovados, reprovados, &nAprov, &nReprov);
+    
+    printf("\nAPROVADOS:\n");
+    for(int i = 0; i < nAprov; i++) {
+        printf("%s (Matrícula: %d, Média: %.1f)\n", 
+               aprovados[i].nome, aprovados[i].matricula, aprovados[i].media);
+    }
+    
+    printf("\nREPROVADOS:\n");
+    for(int i = 0; i < nReprov; i++) {
+        printf("%s (Matrícula: %d, Média: %.1f)\n", 
+               reprovados[i].nome, reprovados[i].matricula, reprovados[i].media);
+    }
+    
+    return 0;
+}
+
+// 12
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+typedef struct {
+    char naipe[10];
+    char valor[3];
+} Carta;
+
+void distribuirCartas(Carta baralho[], Carta jogador1[], Carta jogador2[]) {
+    srand(time(NULL));
+    for(int i = 0; i < 5; i++) {
+        jogador1[i] = baralho[rand() % 52];
+        jogador2[i] = baralho[rand() % 52];
+    }
+}
+
+int main() {
+    Carta baralho[52] = {
+        {"Espadas", "A"}, {"Espadas", "2"}, {"Espadas", "3"}, {"Espadas", "4"}, 
+        {"Espadas", "5"}, {"Espadas", "6"}, {"Espadas", "7"}, {"Espadas", "8"}, 
+        {"Espadas", "9"}, {"Espadas", "10"}, {"Espadas", "J"}, {"Espadas", "Q"}, {"Espadas", "K"},
+        {"Copas", "A"}, {"Copas", "2"}, {"Copas", "3"}, {"Copas", "4"},
+        {"Copas", "5"}, {"Copas", "6"}, {"Copas", "7"}, {"Copas", "8"},
+        {"Copas", "9"}, {"Copas", "10"}, {"Copas", "J"}, {"Copas", "Q"}, {"Copas", "K"},
+        {"Ouros", "A"}, {"Ouros", "2"}, {"Ouros", "3"}, {"Ouros", "4"},
+        {"Ouros", "5"}, {"Ouros", "6"}, {"Ouros", "7"}, {"Ouros", "8"},
+        {"Ouros", "9"}, {"Ouros", "10"}, {"Ouros", "J"}, {"Ouros", "Q"}, {"Ouros", "K"},
+        {"Paus", "A"}, {"Paus", "2"}, {"Paus", "3"}, {"Paus", "4"},
+        {"Paus", "5"}, {"Paus", "6"}, {"Paus", "7"}, {"Paus", "8"},
+        {"Paus", "9"}, {"Paus", "10"}, {"Paus", "J"}, {"Paus", "Q"}, {"Paus", "K"}
+    };
+    
+    Carta jogador1[5], jogador2[5];
+    
+    distribuirCartas(baralho, jogador1, jogador2);
+    
+    printf("Cartas do Jogador 1:\n");
+    for(int i = 0; i < 5; i++) {
+        printf("%s de %s\n", jogador1[i].valor, jogador1[i].naipe);
+    }
+    
+    printf("\nCartas do Jogador 2:\n");
+    for(int i = 0; i < 5; i++) {
+        printf("%s de %s\n", jogador2[i].valor, jogador2[i].naipe);
+    }
+    
+    return 0;
+}
+
+// 13
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <stdbool.h>
+
+typedef struct {
+    char nome[50];
+    char endereco[100];
+    char dataNasc[11];
+    char cidade[50];
+    char cep[10];
+    char email[50];
+} DadosPessoais;
+
+bool validarData(const char *data) {
+    int dia, mes, ano;
+    if(sscanf(data, "%d/%d/%d", &dia, &mes, &ano) != 3) return false;
+    if(dia < 1 || dia > 31) return false;
+    if(mes < 1 || mes > 12) return false;
+    if(ano < 1900 || ano > 2023) return false;
+    return true;
+}
+
+bool validarCEP(const char *cep) {
+    if(strlen(cep) != 9 || cep[5] != '-') return false;
+    for(int i = 0; i < 9; i++) {
+        if(i != 5 && !isdigit(cep[i])) return false;
+    }
+    return true;
+}
+
+bool validarEmail(const char *email) {
+    int at = 0, dot = 0;
+    for(int i = 0; email[i]; i++) {
+        if(email[i] == '@') at++;
+        else if(email[i] == '.') dot++;
+    }
+    return (at == 1 && dot >= 1);
+}
+
+int main() {
+    DadosPessoais pessoa;
+    
+    printf("Digite seus dados pessoais:\n");
+    printf("Nome: ");
+    fgets(pessoa.nome, 50, stdin);
+    printf("Endereço: ");
+    fgets(pessoa.endereco, 100, stdin);
+    printf("Data de Nascimento (DD/MM/AAAA): ");
+    scanf("%s", pessoa.dataNasc);
+    getchar();
+    printf("Cidade: ");
+    fgets(pessoa.cidade, 50, stdin);
+    printf("CEP (XXXXX-XXX): ");
+    scanf("%s", pessoa.cep);
+    getchar();
+    printf("Email: ");
+    scanf("%s", pessoa.email);
+    
+    bool dadosValidos = true;
+    
+    if(!validarData(pessoa.dataNasc)) {
+        printf("Data de nascimento inválida!\n");
+        dadosValidos = false;
+    }
+    if(!validarCEP(pessoa.cep)) {
+        printf("CEP inválido!\n");
+        dadosValidos = false;
+    }
+    if(!validarEmail(pessoa.email)) {
+        printf("Email inválido!\n");
+        dadosValidos = false;
+    }
+    
+    if(dadosValidos) {
+        printf("\nDados válidos:\n");
+        printf("Nome: %s", pessoa.nome);
+        printf("Endereço: %s", pessoa.endereco);
+        printf("Data de Nascimento: %s\n", pessoa.dataNasc);
+        printf("Cidade: %s", pessoa.cidade);
+        printf("CEP: %s\n", pessoa.cep);
+        printf("Email: %s\n", pessoa.email);
+    }
+    
+    return 0;
+}
+
+// 14
+#include <stdio.h>
+
+typedef struct {
+    char marca[16];
+    int ano;
+    float preco;
+} Carro;
+
+int main() {
+    Carro carros[5];
+    
+    for(int i = 0; i < 5; i++) {
+        printf("Carro %d:\n", i+1);
+        printf("Marca (max 15 letras): ");
+        scanf(" %15[^\n]", carros[i].marca);
+        printf("Ano: ");
+        scanf("%d", &carros[i].ano);
+        printf("Preço: ");
+        scanf("%f", &carros[i].preco);
+    }
+    
+    float p;
+    do {
+        printf("\nDigite um valor p (0 para sair): ");
+        scanf("%f", &p);
+        if(p == 0) break;
+        
+        printf("Carros com preço menor que %.2f:\n", p);
+        for(int i = 0; i < 5; i++) {
+            if(carros[i].preco < p) {
+                printf("%s (%d) - R$ %.2f\n", carros[i].marca, carros[i].ano, carros[i].preco);
+            }
+        }
+    } while(1);
+    
+    return 0;
+}
+
+// 15
+#include <stdio.h>
+#include <string.h>
+
+typedef struct {
+    char titulo[31];
+    char autor[16];
+    int ano;
+} Livro;
+
+void buscarLivro(Livro livros[], int n, const char *titulo) {
+    int encontrados = 0;
+    for(int i = 0; i < n; i++) {
+        if(strstr(livros[i].titulo, titulo) != NULL) {
+            printf("\nLivro encontrado:\n");
+            printf("Título: %s\nAutor: %s\nAno: %d\n", 
+                   livros[i].titulo, livros[i].autor, livros[i].ano);
+            encontrados++;
+        }
+    }
+    if(!encontrados) {
+        printf("Nenhum livro encontrado com o título '%s'\n", titulo);
+    }
+}
+
+int main() {
+    Livro livros[5];
+    
+    for(int i = 0; i < 5; i++) {
+        printf("Livro %d:\n", i+1);
+        printf("Título (max 30 letras): ");
+        scanf(" %30[^\n]", livros[i].titulo);
+        printf("Autor (max 15 letras): ");
+        scanf(" %15[^\n]", livros[i].autor);
+        printf("Ano: ");
+        scanf("%d", &livros[i].ano);
+    }
+    
+    char busca[31];
+    do {
+        printf("\nDigite o título para buscar (vazio para sair): ");
+        scanf(" %30[^\n]", busca);
+        if(strlen(busca) == 0) break;
+        buscarLivro(livros, 5, busca);
+    } while(1);
+    
+    return 0;
+}
+
+// 16
+#include <stdio.h>
+
+typedef struct {
+    int dia;
+    int mes;
+    int ano;
+} Data;
+
+typedef struct {
+    char compromisso[61];
+    Data data;
+} Agenda;
+
+void mostrarCompromissos(Agenda agenda[], int n, int mes, int ano) {
+    int encontrados = 0;
+    printf("\nCompromissos em %d/%d:\n", mes, ano);
+    for(int i = 0; i < n; i++) {
+        if(agenda[i].data.mes == mes && agenda[i].data.ano == ano) {
+            printf("%02d/%02d/%04d: %s\n", 
+                   agenda[i].data.dia, agenda[i].data.mes, agenda[i].data.ano,
+                   agenda[i].compromisso);
+            encontrados++;
+        }
+    }
+    if(!encontrados) {
+        printf("Nenhum compromisso encontrado.\n");
+    }
+}
+
+int main() {
+    Agenda agenda[5];
+    
+    for(int i = 0; i < 5; i++) {
+        printf("Compromisso %d:\n", i+1);
+        printf("Descrição (max 60 letras): ");
+        scanf(" %60[^\n]", agenda[i].compromisso);
+        printf("Data (DD MM AAAA): ");
+        scanf("%d %d %d", &agenda[i].data.dia, &agenda[i].data.mes, &agenda[i].data.ano);
+    }
+    
+    int M, A;
+    do {
+        printf("\nDigite mês e ano para buscar (0 0 para sair): ");
+        scanf("%d %d", &M, &A);
+        if(M == 0 && A == 0) break;
+        mostrarCompromissos(agenda, 5, M, A);
+    } while(1);
+    
+    return 0;
+}
+
+// 17
+#include <stdio.h>
+
+typedef struct {
+    char nome[16];
+    float potencia;
+    float tempo;
+} Eletrodomestico;
+
+int main() {
+    Eletrodomestico eletros[5];
+    float consumoTotal, consumos[5];
+    
+    for(int i = 0; i < 5; i++) {
+        printf("Eletrodoméstico %d:\n", i+1);
+        printf("Nome (max 15 letras): ");
+        scanf(" %15[^\n]", eletros[i].nome);
+        printf("Potência (kW): ");
+        scanf("%f", &eletros[i].potencia);
+        printf("Tempo ativo por dia (horas): ");
+        scanf("%f", &eletros[i].tempo);
+    }
+    
+    int t;
+    printf("\nDigite o período em dias: ");
+    scanf("%d", &t);
+    
+    consumoTotal = 0;
+    for(int i = 0; i < 5; i++) {
+        consumos[i] = eletros[i].potencia * eletros[i].tempo * t;
+        consumoTotal += consumos[i];
+    }
+    
+    printf("\nConsumo total: %.2f kWh\n", consumoTotal);
+    printf("Consumo relativo:\n");
+    for(int i = 0; i < 5; i++) {
+        printf("%s: %.2f kWh (%.1f%%)\n", 
+               eletros[i].nome, consumos[i], (consumos[i]/consumoTotal)*100);
+    }
+    
+    return 0;
+}
+
+// 18
+#include <stdio.h>
+
+typedef struct {
+    int codigo;
+    char nome[16];
+    float preco;
+    int quantidade;
+} Produto;
+
+int main() {
+    Produto estoque[5];
+    
+    for(int i = 0; i < 5; i++) {
+        printf("Produto %d:\n", i+1);
+        printf("Código: ");
+        scanf("%d", &estoque[i].codigo);
+        printf("Nome (max 15 letras): ");
+        scanf(" %15[^\n]", estoque[i].nome);
+        printf("Preço: ");
+        scanf("%f", &estoque[i].preco);
+        printf("Quantidade: ");
+        scanf("%d", &estoque[i].quantidade);
+    }
+    
+    int cod, qtd;
+    do {
+        printf("\nDigite código do produto e quantidade (0 0 para sair): ");
+        scanf("%d %d", &cod, &qtd);
+        if(cod == 0) break;
+        
+        int encontrado = 0;
+        for(int i = 0; i < 5; i++) {
+            if(estoque[i].codigo == cod) {
+                encontrado = 1;
+                if(estoque[i].quantidade >= qtd) {
+                    estoque[i].quantidade -= qtd;
+                    printf("Pedido atendido! Novo estoque: %d\n", estoque[i].quantidade);
+                } else {
+                    printf("Erro: Estoque insuficiente (disponível: %d)\n", estoque[i].quantidade);
+                }
+                break;
+            }
+        }
+        if(!encontrado) {
+            printf("Erro: Produto não encontrado.\n");
+        }
+    } while(1);
+    
+    return 0;
+}
+
+// 19
+#include <stdio.h>
+
+#define V 5
+#define A 5
+
+typedef struct {
+    int origem;
+    int destino;
+} Voo;
+
+typedef struct {
+    int codigo;
+    int voosSaida;
+    int voosChegada;
+} Aeroporto;
+
+int main() {
+    Voo voos[V];
+    Aeroporto aeroportos[A];
+    
+    // Inicializa aeroportos
+    for(int i = 0; i < A; i++) {
+        aeroportos[i].codigo = i;
+        aeroportos[i].voosSaida = 0;
+        aeroportos[i].voosChegada = 0;
+    }
+    
+    // Lê voos
+    for(int i = 0; i < V; i++) {
+        printf("Voo %d:\n", i+1);
+        printf("Código de origem (0-%d): ", A-1);
+        scanf("%d", &voos[i].origem);
+        printf("Código de destino (0-%d): ", A-1);
+        scanf("%d", &voos[i].destino);
+        
+        // Valida códigos
+        if(voos[i].origem < 0 || voos[i].origem >= A || 
+           voos[i].destino < 0 || voos[i].destino >= A) {
+            printf("Código de aeroporto inválido! Digite novamente.\n");
+            i--;
+            continue;
+        }
+        
+        // Atualiza contadores
+        aeroportos[voos[i].origem].voosSaida++;
+        aeroportos[voos[i].destino].voosChegada++;
+    }
+    
+    // Mostra estatísticas
+    printf("\nEstatísticas dos aeroportos:\n");
+    for(int i = 0; i < A; i++) {
+        printf("Aeroporto %d: Voos de saída: %d, Voos de chegada: %d\n",
+               i, aeroportos[i].voosSaida, aeroportos[i].voosChegada);
+    }
+    
+    return 0;
+}
+
+// 20
+#include <stdio.h>
+#include <string.h>
+
+typedef struct {
+    char nome[20];
+    float quantidade;
+} Ingrediente;
+
+typedef struct {
+    char nome[26];
+    int numIngredientes;
+    Ingrediente *ingredientes;
+} Receita;
+
+void buscarReceita(Receita receitas[], int n, const char *nome) {
+    int encontrada = 0;
+    for(int i = 0; i < n; i++) {
+        if(strstr(receitas[i].nome, nome) != NULL) {
+            printf("\nReceita: %s\nIngredientes:\n", receitas[i].nome);
+            for(int j = 0; j < receitas[i].numIngredientes; j++) {
+                printf("- %s: %.2f\n", 
+                       receitas[i].ingredientes[j].nome, 
+                       receitas[i].ingredientes[j].quantidade);
+            }
+            encontrada = 1;
+        }
+    }
+    if(!encontrada) {
+        printf("Receita '%s' não encontrada.\n", nome);
+    }
+}
+
+int main() {
+    Receita receitas[5];
+    
+    for(int i = 0; i < 5; i++) {
+        printf("Receita %d:\n", i+1);
+        printf("Nome (max 25 letras): ");
+        scanf(" %25[^\n]", receitas[i].nome);
+        printf("Número de ingredientes: ");
+        scanf("%d", &receitas[i].numIngredientes);
+        
+        receitas[i].ingredientes = malloc(receitas[i].numIngredientes * sizeof(Ingrediente));
+        
+        for(int j = 0; j < receitas[i].numIngredientes; j++) {
+            printf("Ingrediente %d:\n", j+1);
+            printf("Nome (max 19 letras): ");
+            scanf(" %19[^\n]", receitas[i].ingredientes[j].nome);
+            printf("Quantidade: ");
+            scanf("%f", &receitas[i].ingredientes[j].quantidade);
+        }
+    }
+    
+    char busca[26];
+    do {
+        printf("\nDigite o nome da receita para buscar (vazio para sair): ");
+        scanf(" %25[^\n]", busca);
+        if(strlen(busca) == 0) break;
+        buscarReceita(receitas, 5, busca);
+    } while(1);
+    
+    // Libera memória alocada
+    for(int i = 0; i < 5; i++) {
+        free(receitas[i].ingredientes);
+    }
+    
+    return 0;
+}
+
+// 21
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+typedef struct {
+    char nome[30];
+    int ano;
+    int duracao;
+} Filme;
+
+typedef struct {
+    char nome[21];
+    int numFilmes;
+    Filme *filmes;
+} Diretor;
+
+void buscarDiretor(Diretor diretores[], int n, const char *nome) {
+    int encontrado = 0;
+    for(int i = 0; i < n; i++) {
+        if(strstr(diretores[i].nome, nome) != NULL) {
+            printf("\nDiretor: %s\nFilmes:\n", diretores[i].nome);
+            for(int j = 0; j < diretores[i].numFilmes; j++) {
+                printf("- %s (%d), %d minutos\n", 
+                       diretores[i].filmes[j].nome, 
+                       diretores[i].filmes[j].ano,
+                       diretores[i].filmes[j].duracao);
+            }
+            encontrado = 1;
+        }
+    }
+    if(!encontrado) {
+        printf("Diretor '%s' não encontrado.\n", nome);
+    }
+}
+
+int main() {
+    Diretor diretores[5];
+    
+    for(int i = 0; i < 5; i++) {
+        printf("Diretor %d:\n", i+1);
+        printf("Nome (max 20 letras): ");
+        scanf(" %20[^\n]", diretores[i].nome);
+        printf("Número de filmes: ");
+        scanf("%d", &diretores[i].numFilmes);
+        
+        diretores[i].filmes = malloc(diretores[i].numFilmes * sizeof(Filme));
+        
+        for(int j = 0; j < diretores[i].numFilmes; j++) {
+            printf("Filme %d:\n", j+1);
+            printf("Nome (max 29 letras): ");
+            scanf(" %29[^\n]", diretores[i].filmes[j].nome);
+            printf("Ano: ");
+            scanf("%d", &diretores[i].filmes[j].ano);
+            printf("Duração (minutos): ");
+            scanf("%d", &diretores[i].filmes[j].duracao);
+        }
+    }
+    
+    char busca[21];
+    do {
+        printf("\nDigite o nome do diretor para buscar (vazio para sair): ");
+        scanf(" %20[^\n]", busca);
+        if(strlen(busca) == 0) break;
+        buscarDiretor(diretores, 5, busca);
+    } while(1);
+    
+    // Libera memória alocada
+    for(int i = 0; i < 5; i++) {
+        free(diretores[i].filmes);
+    }
+    
+    return 0;
+}
+
+//22
+#include <stdio.h>
+#include <string.h>
+
+#define TAM 5
+
+// Estrutura do Endereço
+typedef struct {
+    char rua[50];
+    char bairro[50];
+    char cidade[50];
+    char estado[3];
+    char cep[10];
+} Endereco;
+
+// Estrutura principal de Cadastro
+typedef struct {
+    char nome[50];
+    Endereco endereco;
+    float salario;
+    char estado_civil[20];
+    char identidade[20];
+    char cpf[15];
+    char telefone[15];
+    int idade;
+    char sexo;
+} Cadastro;
+
+int main() {
+    Cadastro cadastros[TAM];
+    char busca_identidade[20];
+    int i, maior_idade = 0, indice_maior = 0;
+
+    // (b) Entrada dos dados
+    for (i = 0; i < TAM; i++) {
+        printf("\nCadastro %d\n", i+1);
+        printf("Nome: "); fgets(cadastros[i].nome, 50, stdin); cadastros[i].nome[strcspn(cadastros[i].nome, "\n")] = 0;
+        printf("Identidade: "); fgets(cadastros[i].identidade, 20, stdin); cadastros[i].identidade[strcspn(cadastros[i].identidade, "\n")] = 0;
+        printf("CPF: "); fgets(cadastros[i].cpf, 15, stdin); cadastros[i].cpf[strcspn(cadastros[i].cpf, "\n")] = 0;
+        printf("Telefone: "); fgets(cadastros[i].telefone, 15, stdin); cadastros[i].telefone[strcspn(cadastros[i].telefone, "\n")] = 0;
+        printf("Idade: "); scanf("%d", &cadastros[i].idade); getchar();
+        printf("Sexo (M/F): "); scanf("%c", &cadastros[i].sexo); getchar();
+        printf("Estado Civil: "); fgets(cadastros[i].estado_civil, 20, stdin); cadastros[i].estado_civil[strcspn(cadastros[i].estado_civil, "\n")] = 0;
+        printf("Salário: "); scanf("%f", &cadastros[i].salario); getchar();
+
+        printf("Rua: "); fgets(cadastros[i].endereco.rua, 50, stdin); cadastros[i].endereco.rua[strcspn(cadastros[i].endereco.rua, "\n")] = 0;
+        printf("Bairro: "); fgets(cadastros[i].endereco.bairro, 50, stdin); cadastros[i].endereco.bairro[strcspn(cadastros[i].endereco.bairro, "\n")] = 0;
+        printf("Cidade: "); fgets(cadastros[i].endereco.cidade, 50, stdin); cadastros[i].endereco.cidade[strcspn(cadastros[i].endereco.cidade, "\n")] = 0;
+        printf("Estado (UF): "); fgets(cadastros[i].endereco.estado, 3, stdin); getchar();
+        printf("CEP: "); fgets(cadastros[i].endereco.cep, 10, stdin); cadastros[i].endereco.cep[strcspn(cadastros[i].endereco.cep, "\n")] = 0;
+    }
+
+    // (c) Pessoa com maior idade
+    for (i = 1; i < TAM; i++) {
+        if (cadastros[i].idade > cadastros[indice_maior].idade) {
+            indice_maior = i;
+        }
+    }
+    printf("\nPessoa com maior idade: %s (%d anos)\n", cadastros[indice_maior].nome, cadastros[indice_maior].idade);
+
+    // (d) Pessoas do sexo masculino
+    printf("\nPessoas do sexo masculino:\n");
+    for (i = 0; i < TAM; i++) {
+        if (cadastros[i].sexo == 'M' || cadastros[i].sexo == 'm') {
+            printf("- %s\n", cadastros[i].nome);
+        }
+    }
+
+    // (e) Pessoas com salário maior que 1000
+    printf("\nPessoas com salário maior que 1000:\n");
+    for (i = 0; i < TAM; i++) {
+        if (cadastros[i].salario > 1000) {
+            printf("- %s (R$ %.2f)\n", cadastros[i].nome, cadastros[i].salario);
+        }
+    }
+
+    // (f) Buscar por identidade
+    printf("\nDigite a identidade a ser buscada: ");
+    fgets(busca_identidade, 20, stdin);
+    busca_identidade[strcspn(busca_identidade, "\n")] = 0;
+
+    for (i = 0; i < TAM; i++) {
+        if (strcmp(cadastros[i].identidade, busca_identidade) == 0) {
+            printf("\nDados encontrados:\n");
+            printf("Nome: %s\n", cadastros[i].nome);
+            printf("Idade: %d\n", cadastros[i].idade);
+            printf("Sexo: %c\n", cadastros[i].sexo);
+            printf("Salário: %.2f\n", cadastros[i].salario);
+            printf("Endereço: %s, %s, %s - %s (%s)\n", cadastros[i].endereco.rua,
+                   cadastros[i].endereco.bairro, cadastros[i].endereco.cidade,
+                   cadastros[i].endereco.estado, cadastros[i].endereco.cep);
+            break;
+        }
+    }
+
+    return 0;
+}
+
+// 23
+#include <stdio.h>
+#include <stdbool.h>
+
+typedef struct {
+    int dia;
+    int mes;
+    int ano;
+} dma;
+
+bool isBissexto(int ano) {
+    return (ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0);
+}
+
+int diasNoMes(int mes, int ano) {
+    if(mes == 2) {
+        return isBissexto(ano) ? 29 : 28;
+    }
+    if(mes == 4 || mes == 6 || mes == 9 || mes == 11) {
+        return 30;
+    }
+    return 31;
+}
+
+int calcularDiasDesdeInicio(dma data) {
+    int dias = data.dia;
+    for(int m = 1; m < data.mes; m++) {
+        dias += diasNoMes(m, data.ano);
+    }
+    for(int a = 1; a < data.ano; a++) {
+        dias += isBissexto(a) ? 366 : 365;
+    }
+    return dias;
+}
+
+int diferencaDias(dma data1, dma data2) {
+    int dias1 = calcularDiasDesdeInicio(data1);
+    int dias2 = calcularDiasDesdeInicio(data2);
+    return dias1 > dias2 ? dias1 - dias2 : dias2 - dias1;
+}
+
+int main() {
+    dma data1, data2;
+    
+    printf("Digite a primeira data (DD MM AAAA): ");
+    scanf("%d %d %d", &data1.dia, &data1.mes, &data1.ano);
+    printf("Digite a segunda data (DD MM AAAA): ");
+    scanf("%d %d %d", &data2.dia, &data2.mes, &data2.ano);
+    
+    int diferenca = diferencaDias(data1, data2);
+    printf("\nDias entre %02d/%02d/%04d e %02d/%02d/%04d: %d dias\n",
+           data1.dia, data1.mes, data1.ano,
+           data2.dia, data2.mes, data2.ano,
+           diferenca);
+    
+    return 0;
+}
+
+//24
+
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+
+#define MAX_CONTACTS 100
+#define MAX_NAME 50
+#define MAX_EMAIL 50
+#define MAX_STREET 50
+#define MAX_COMPLEMENT 30
+#define MAX_NEIGHBORHOOD 30
+#define MAX_CITY 30
+#define MAX_STATE 3
+#define MAX_COUNTRY 30
+#define MAX_PHONE 15
+#define MAX_NOTES 100
+
+typedef struct {
+    int day;
+    int month;
+    int year;
+} Birthday;
+
+typedef struct {
+    char street[MAX_STREET];
+    int number;
+    char complement[MAX_COMPLEMENT];
+    char neighborhood[MAX_NEIGHBORHOOD];
+    char cep[10];
+    char city[MAX_CITY];
+    char state[MAX_STATE];
+    char country[MAX_COUNTRY];
+} Address;
+
+typedef struct {
+    int ddd;
+    char number[MAX_PHONE];
+} Phone;
+
+typedef struct {
+    char name[MAX_NAME];
+    char email[MAX_EMAIL];
+    Address address;
+    Phone phone;
+    Birthday birthday;
+    char notes[MAX_NOTES];
+} Contact;
+
+Contact agenda[MAX_CONTACTS];
+int totalContacts = 0;
+
+void clearBuffer() {
+    while(getchar() != '\n');
+}
+
+void printContactFull(int index) {
+    printf("\nNome: %s\n", agenda[index].name);
+    printf("E-mail: %s\n", agenda[index].email);
+    printf("Endereço:\n");
+    printf("  Rua: %s, %d\n", agenda[index].address.street, agenda[index].address.number);
+    printf("  Complemento: %s\n", agenda[index].address.complement);
+    printf("  Bairro: %s\n", agenda[index].address.neighborhood);
+    printf("  CEP: %s\n", agenda[index].address.cep);
+    printf("  Cidade: %s\n", agenda[index].address.city);
+    printf("  Estado: %s\n", agenda[index].address.state);
+    printf("  País: %s\n", agenda[index].address.country);
+    printf("Telefone: (%d) %s\n", agenda[index].phone.ddd, agenda[index].phone.number);
+    printf("Aniversário: %02d/%02d/%04d\n", 
+           agenda[index].birthday.day, 
+           agenda[index].birthday.month, 
+           agenda[index].birthday.year);
+    printf("Observações: %s\n", agenda[index].notes);
+}
+
+void printContactShort(int index) {
+    printf("Nome: %s\n", agenda[index].name);
+    printf("Telefone: (%d) %s\n", agenda[index].phone.ddd, agenda[index].phone.number);
+    printf("E-mail: %s\n\n", agenda[index].email);
+}
+
+void searchByName() {
+    char name[MAX_NAME];
+    printf("Digite o nome (ou parte) para buscar: ");
+    scanf(" %49[^\n]", name);
+    
+    int found = 0;
+    for(int i = 0; i < totalContacts; i++) {
+        if(strstr(agenda[i].name, name) != NULL) {
+            printContactFull(i);
+            found++;
+        }
+    }
+    if(!found) {
+        printf("Nenhum contato encontrado com '%s'\n", name);
+    }
+}
+
+void searchByBirthMonth() {
+    int month;
+    printf("Digite o mês de aniversário (1-12): ");
+    scanf("%d", &month);
+    
+    if(month < 1 || month > 12) {
+        printf("Mês inválido!\n");
+        return;
+    }
+    
+    int found = 0;
+    for(int i = 0; i < totalContacts; i++) {
+        if(agenda[i].birthday.month == month) {
+            printContactFull(i);
+            found++;
+        }
+    }
+    if(!found) {
+        printf("Nenhum aniversariante encontrado no mês %d\n", month);
+    }
+}
+
+void searchByBirthDayAndMonth() {
+    int day, month;
+    printf("Digite o dia e mês de aniversário (DD MM): ");
+    scanf("%d %d", &day, &month);
+    
+    if(month < 1 || month > 12 || day < 1 || day > 31) {
+        printf("Data inválida!\n");
+        return;
+    }
+    
+    int found = 0;
+    for(int i = 0; i < totalContacts; i++) {
+        if(agenda[i].birthday.day == day && agenda[i].birthday.month == month) {
+            printContactFull(i);
+            found++;
+        }
+    }
+    if(!found) {
+        printf("Nenhum aniversariante encontrado em %02d/%02d\n", day, month);
+    }
+}
+
+void insertContact() {
+    if(totalContacts >= MAX_CONTACTS) {
+        printf("Agenda cheia!\n");
+        return;
+    }
+    
+    Contact newContact;
+    
+    printf("\nNovo contato:\n");
+    printf("Nome: ");
+    scanf(" %49[^\n]", newContact.name);
+    printf("E-mail: ");
+    scanf(" %49[^\n]", newContact.email);
+    
+    printf("\nEndereço:\n");
+    printf("Rua: ");
+    scanf(" %49[^\n]", newContact.address.street);
+    printf("Número: ");
+    scanf("%d", &newContact.address.number);
+    clearBuffer();
+    printf("Complemento: ");
+    scanf(" %29[^\n]", newContact.address.complement);
+    printf("Bairro: ");
+    scanf(" %29[^\n]", newContact.address.neighborhood);
+    printf("CEP: ");
+    scanf(" %9s", newContact.address.cep);
+    printf("Cidade: ");
+    scanf(" %29[^\n]", newContact.address.city);
+    printf("Estado (sigla): ");
+    scanf(" %2s", newContact.address.state);
+    printf("País: ");
+    scanf(" %29[^\n]", newContact.address.country);
+    
+    printf("\nTelefone:\n");
+    printf("DDD: ");
+    scanf("%d", &newContact.phone.ddd);
+    printf("Número: ");
+    scanf(" %14s", newContact.phone.number);
+    
+    printf("\nAniversário (DD MM AAAA): ");
+    scanf("%d %d %d", &newContact.birthday.day, 
+                      &newContact.birthday.month, 
+                      &newContact.birthday.year);
+    clearBuffer();
+    printf("Observações: ");
+    scanf(" %99[^\n]", newContact.notes);
+    
+    // Insert in alphabetical order
+    int pos = totalContacts;
+    while(pos > 0 && strcmp(newContact.name, agenda[pos-1].name) < 0) {
+        agenda[pos] = agenda[pos-1];
+        pos--;
+    }
+    agenda[pos] = newContact;
+    totalContacts++;
+    
+    printf("Contato adicionado com sucesso!\n");
+}
+
+void removeContact() {
+    char name[MAX_NAME];
+    printf("Digite o nome exato do contato a remover: ");
+    scanf(" %49[^\n]", name);
+    
+    int found = -1;
+    for(int i = 0; i < totalContacts; i++) {
+        if(strcmp(agenda[i].name, name) == 0) {
+            found = i;
+            break;
+        }
+    }
+    
+    if(found == -1) {
+        printf("Contato não encontrado!\n");
+        return;
+    }
+    
+    // Shift all elements after the found position
+    for(int i = found; i < totalContacts-1; i++) {
+        agenda[i] = agenda[i+1];
+    }
+    totalContacts--;
+    
+    printf("Contato removido com sucesso!\n");
+}
+
+void printAgenda() {
+    int option;
+    printf("\nOpções de impressão:\n");
+    printf("1. Nome, telefone e e-mail\n");
+    printf("2. Todos os dados\n");
+    printf("Escolha: ");
+    scanf("%d", &option);
+    
+    if(totalContacts == 0) {
+        printf("Agenda vazia!\n");
+        return;
+    }
+    
+    printf("\n=== CONTATOS ===\n");
+    for(int i = 0; i < totalContacts; i++) {
+        if(option == 1) {
+            printContactShort(i);
+        } else {
+            printContactFull(i);
+        }
+    }
+}
+
+void showMenu() {
+    printf("\n=== AGENDA TELEFÔNICA ===\n");
+    printf("1. Buscar por nome\n");
+    printf("2. Buscar por mês de aniversário\n");
+    printf("3. Buscar por dia e mês de aniversário\n");
+    printf("4. Inserir novo contato\n");
+    printf("5. Remover contato\n");
+    printf("6. Imprimir agenda\n");
+    printf("0. Sair\n");
+    printf("Escolha: ");
+}
+
+int main() {
+    int option;
+    
+    do {
+        showMenu();
+        scanf("%d", &option);
+        clearBuffer();
+        
+        switch(option) {
+            case 1:
+                searchByName();
+                break;
+            case 2:
+                searchByBirthMonth();
+                break;
+            case 3:
+                searchByBirthDayAndMonth();
+                break;
+            case 4:
+                insertContact();
+                break;
+            case 5:
+                removeContact();
+                break;
+            case 6:
+                printAgenda();
+                break;
+            case 0:
+                printf("Saindo...\n");
+                break;
+            default:
+                printf("Opção inválida!\n");
+        }
+    } while(option != 0);
+    
+    return 0;
+}
+
