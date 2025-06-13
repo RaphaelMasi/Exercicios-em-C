@@ -1,0 +1,957 @@
+1. Crie uma função que recebe como parâmetro um número inteiro e devolve o seu dobro.
+
+2. Faça uma função que receba a data atual (dia, mês e ano em inteiro) e a exiba na tela no formato textual por extenso. Exemplo: Data: 01/01/2000 → 1 de janeiro de 2000.
+
+3. Faça uma função para verificar se um número é positivo, negativo ou zero. Retorne 1 se positivo, -1 se negativo, e 0 se for igual a zero.
+
+4. Faça uma função para verificar se um número é um quadrado perfeito.
+
+5. Faça uma função e um programa de teste para o cálculo do volume de uma esfera, dado o raio. Fórmula: V = 4/3 * π * R³
+
+6. Faça uma função que receba 3 números inteiros (horas, minutos, segundos) e converta para segundos.
+
+7. Faça uma função que receba uma temperatura em Celsius e retorne-a convertida em Fahrenheit. Fórmula: F = C * (9.0/5.0) + 32.0
+
+8. Faça uma função que receba os catetos a e b de um triângulo e calcule a hipotenusa. Fórmula: 
+
+9. Faça uma função que receba altura e raio de um cilindro e retorne o seu volume. Fórmula: V = π * raio² * altura
+
+10. Faça uma função que receba dois números e retorne o maior entre eles.
+
+11. Elabore uma função que receba três notas e uma letra. Se for 'A', calcule a média aritmética; se for 'P', a média ponderada com pesos 5, 3 e 2.
+
+12. Escreva uma função que receba um número inteiro maior que zero e retorne a soma dos seus algarismos.
+
+13. Faça uma função que receba dois valores e um símbolo de operação (+, -, *, /) e execute a operação correspondente.
+
+14. Faça uma função que receba a distância (Km) e litros consumidos e calcule o consumo (Km/l), exibindo mensagem conforme a eficiência.
+
+15. Crie um programa que leia três lados de um triângulo e:
+(a) Verifique se formam um triângulo (soma de dois lados > que o terceiro).
+(b) Determine o tipo: equilátero, isósceles ou escaleno.
+
+16. Faça uma função chamada DesenhaLinha que desenhe uma linha com sinais de igual ('='). A quantidade é passada por parâmetro.
+
+17. Faça uma função que receba dois inteiros positivos e retorne a soma dos inteiros entre eles.
+
+18. Faça uma função que receba X e Z e retorne X elevado a Z sem usar pow.
+
+19. Faça uma função que retorne o maior fator primo de um número.
+
+20. Faça um algoritmo que receba um inteiro positivo n e calcule o seu fatorial, n!
+
+21. Escreva uma função para determinar a quantidade de números primos abaixo de N.
+
+22. Crie uma função que receba como parâmetro um valor inteiro e gere como saída n linhas com pontos de exclamação. Exemplo para n = 5:
+!
+!!
+!!!
+!!!!
+!!!!!
+
+23. Escreva uma função que gere um triângulo lateral de altura 2n-1 e largura n. Exemplo para n = 4:
+*
+**
+24. Escreva uma função que gere um triângulo com altura n e base 2n-1. Exemplo para n = 6:
+*
+
+
+25. Faça uma função que receba um inteiro N e retorne o resultado da série: S = 2/4 + 5/5 + 10/6 + ... + (N² + 1)/(N + 3)
+
+26. Faça um algoritmo que receba um número inteiro positivo n e calcule o somatório de 1 até n.
+
+27. Faça uma função que receba um ângulo em graus e calcule o seno usando a série de Taylor. Considere π = 3.141593 e n de 0 a 5.
+
+28. Faça uma função que receba um ângulo em graus e calcule o cosseno usando a série de Taylor. Considere π = 3.141593 e n de 0 a 5.
+
+29. Faça uma função que receba um ângulo em graus e calcule o seno hiperbólico usando a série de Taylor. Considere π = 3.141593 e n de 0 a 5.
+
+30. Faça uma função que receba um ângulo em graus e calcule o cosseno hiperbólico usando a série de Taylor. Considere π = 3.141593 e n de 0 a 5.
+
+31. Faça uma função para calcular o número de Euler (e) usando uma série. O número de termos a somar deve ser passado como parâmetro.
+
+32. Faça uma função simplifica que receba numerador e denominador de uma fração e a simplifique, modificando as variáveis por parâmetro.
+
+33. Faça uma função que receba um número N e retorne a soma dos algarismos de N! (fatorial).
+
+34. Faça uma função não recursiva que receba um número inteiro positivo ímpar N e retorne o fatorial duplo: produto dos ímpares até N.
+
+35. Faça uma função não recursiva que receba um número inteiro positivo n e retorne o fatorial quádruplo: (2n)! / n!
+
+36. Faça uma função não recursiva que receba um número inteiro positivo N e retorne o superfatorial: sf(N) = 1! * 2! * ... * N!
+
+37. Faça uma função não recursiva que receba um número inteiro positivo n e retorne o hiperfatorial: H(n) = 1¹ * 2² * 3³ * ... * nⁿ
+
+38. Faça uma função não recursiva que receba um número inteiro positivo n e retorne o fatorial exponencial: n^(n-1^(n-2^...))
+
+39. Faça uma função Troque que receba duas variáveis reais A e B e troque seus valores.
+
+40. Faça uma função que receba um vetor de inteiros e retorne quantos valores pares ele possui.
+
+41. Faça uma função que receba um vetor de inteiros e retorne o maior valor.
+
+42. Faça uma função que receba um vetor de reais e retorne a média dos elementos.
+
+43. Faça uma função que receba um vetor de inteiros e o preencha com números aleatórios sem repetição.
+
+44. Faça uma função que receba como parâmetro um vetor X de 30 inteiros e retorne, também por parâmetro, dois vetores A e B, contendo os pares e ímpares de X, respetivamente.
+
+45. Faça uma função que calcule o desvio padrão de um vetor v com n números reais. Fórmula:
+, onde m é a média.
+
+46. Crie um programa com funções que recebam um vetor V de números reais e:
+
+Imprimam o vetor na ordem normal;
+
+Imprimam o vetor na ordem inversa;
+
+Calculem a média aritmética dos elementos.
+
+47. Faça uma função que receba uma matriz 4x4 e retorne quantos valores maiores que 10 ela possui.
+
+48. Faça uma função que receba uma matriz 3x3 e calcule a soma dos elementos acima da diagonal principal.
+
+49. Faça uma função que receba uma matriz 3x3 e calcule a soma dos elementos abaixo da diagonal principal.
+
+50. Faça uma função que receba uma matriz 3x3 e calcule a soma dos elementos da diagonal principal.
+
+51. Faça uma função que receba uma matriz 3x3 e calcule a soma dos elementos da diagonal secundária.
+
+52. Escreva uma função que receba uma matriz quadrada de ordem N e calcule a sua transposta.
+
+53. Faça uma função que verifique se uma matriz quadrada de ordem N é a matriz identidade.
+
+54. Faça uma função que receba, por parâmetro, uma matriz A[4][4] e retorne a soma dos seus elementos.
+
+55. Faça uma função que receba, por parâmetro, uma matriz A[3][3] e retorne a soma dos elementos da diagonal principal e secundária.
+
+56. Faça uma função que receba, por parâmetro, uma matriz A[7][6] e uma linha N, e retorne a soma dos elementos dessa linha.
+
+57. Faça uma função que receba, por parâmetro, uma matriz A[7][6] e uma coluna N, e retorne a soma dos elementos dessa coluna.
+
+58. Faça uma função que receba, por parâmetro, duas matrizes quadradas de ordem N (A e B) e retorne, também por parâmetro, a matriz C que é o produto matricial de A e B.
+
+59. Faça uma função que receba, por parâmetro, dois vetores de 10 inteiros e calcule, retornando também por parâmetro, o vetor união dos dois.
+
+60. Escreva uma função que retorne a primeira posição de uma substring dentro de uma string. Caso não encontrada, retorne -1.
+
+61. Escreva uma função que compare duas strings e retorne verdadeiro se forem anagramas, e falso caso contrário.
+
+62. Crie uma função que calcule o comprimento de uma string. Protótipo: void tamanho(char *str, int *strsize);
+
+63. Crie uma função que compare duas strings e retorne se são iguais ou diferentes.
+
+64. Implemente uma função que receba duas strings str1 e str2 e concatene str2 a str1.
+
+65. Implemente uma função que receba duas strings str1, str2 e um inteiro positivo N. A função concatena no máximo N caracteres de str2 a str1 e termina com NULL.
+
+66. Faça uma função que, dado um caractere, retorne esse caractere em maiúsculo.
+
+67. Faça uma rotina que receba um vetor de caracteres e seu tamanho. A função deve ler uma string com getchar() até Enter ou o limite.
+
+68. Faça uma função que receba duas strings e retorne a intercalação letra a letra da primeira com a segunda, dentro da primeira string.
+
+69. Faça um programa que realize operações com frações:
+(a) Leia duas frações p e q (numerador e denominador);
+(b) Simplifique ambas;
+(c) Calcule a soma, subtração, produto e quociente.
+Crie uma função para cada item.
+
+70. Considere a estrutura struct racional { int p, q; } e implemente:
+(a) reduz: simplifica a fração a/b;
+(b) neg: retorna o racional -x;
+(c) soma: retorna a soma de dois racionais;
+(d) mult: retorna o produto de dois racionais;
+(e) div: retorna o quociente de dois racionais.
+
+71. Dada a estrutura struct Ponto { int x; int y; };, implemente uma função que diga se o ponto p está dentro de um retângulo definido pelos vértices v1 (inf. esq.) e v2 (sup. dir.). Protótipo: int dentroRet(struct Ponto* v1, struct Ponto* v2, struct Ponto* p);
+
+72. Com a estrutura struct Vetor { float x, y, z; };, implemente a função void soma(struct Vetor* v1, struct Vetor* v2, struct Vetor* res); que soma dois vetores.
+
+73. Numa pesquisa com 5 habitantes, foram recolhidos: sexo, cor dos olhos (A = Azuis, C = Castanhos), cor dos cabelos (L = Louros, P = Pretos, C = Castanhos) e idade. Implemente funções para:
+(a) Ler os dados em vetor;
+(b) Calcular a média de idade dos com olhos castanhos e cabelos pretos;
+(c) Determinar a maior idade;
+(d) Contar quantas mulheres entre 18-35 anos têm olhos azuis e cabelos louros.
+
+
+
+
+
+//1
+int dobro(int num) {
+    return num * 2;
+}
+
+//2
+void exibeDataExtenso(int dia, int mes, int ano) {
+    char *meses[] = {"janeiro", "fevereiro", "março", "abril", "maio", "junho",
+                     "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"};
+    printf("%d de %s de %d\n", dia, meses[mes - 1], ano);
+}
+
+//3
+int verificaSinal(int num) {
+    if (num > 0) return 1;
+    else if (num < 0) return -1;
+    else return 0;
+}
+
+//4
+
+int ehQuadradoPerfeito(int num) {
+    if (num < 0) return 0;
+    int raiz = sqrt(num);
+    return (raiz * raiz == num);
+}
+
+//5
+
+float volumeEsfera(float raio) {
+    return (4.0 / 3.0) * 3.141592 * pow(raio, 3);
+}
+
+//6
+
+int converteParaSegundos(int horas, int minutos, int segundos) {
+    return horas * 3600 + minutos * 60 + segundos;
+}
+
+//7. Função para converter Celsius para Fahrenheit
+c
+float celsiusParaFahrenheit(float celsius) {
+    return celsius * (9.0 / 5.0) + 32.0;
+}
+//8. Função para calcular a hipotenusa de um triângulo retângulo
+c
+float hipotenusa(float a, float b) {
+    return sqrt(pow(a, 2) + pow(b, 2));
+}
+//9. Função para calcular o volume de um cilindro
+c
+float volumeCilindro(float altura, float raio) {
+    return 3.141592 * pow(raio, 2) * altura;
+}
+//10. Função que retorna o maior entre dois números
+c
+int maior(int a, int b) {
+    return (a > b) ? a : b;
+}
+//11. Função para calcular média aritmética ou ponderada
+c
+float calculaMedia(float nota1, float nota2, float nota3, char tipo) {
+    if (tipo == 'A') {
+        return (nota1 + nota2 + nota3) / 3;
+    } else if (tipo == 'P') {
+        return (nota1 * 5 + nota2 * 3 + nota3 * 2) / 10;
+    }
+    return 0;
+}
+//12. Função para somar os algarismos de um número
+c
+int somaAlgarismos(int num) {
+    if (num <= 0) {
+        printf("Número inválido\n");
+        return -1;
+    }
+    int soma = 0;
+    while (num > 0) {
+        soma += num % 10;
+        num /= 10;
+    }
+    return soma;
+}
+//13. Função para realizar operações matemáticas básicas
+c
+float operaNumeros(float a, float b, char simbolo) {
+    switch (simbolo) {
+        case '+': return a + b;
+        case '-': return a - b;
+        case '*': return a * b;
+        case '/': return (b != 0) ? a / b : 0;
+        default: return 0;
+    }
+}
+//14. Função para calcular consumo de combustível e exibir mensagem
+c
+void verificaConsumo(float distancia, float litros) {
+    float consumo = distancia / litros;
+    if (consumo < 8) printf("Venda o carro!\n");
+    else if (consumo <= 14) printf("Econômico!\n");
+    else printf("Super econômico!\n");
+}
+//15. Funções para verificar triângulo e seu tipo
+c
+int formaTriangulo(int a, int b, int c) {
+    return (a < b + c) && (b < a + c) && (c < a + b);
+}
+
+void tipoTriangulo(int a, int b, int c) {
+    if (a == b && b == c) printf("Equilátero\n");
+    else if (a == b || b == c || a == c) printf("Isósceles\n");
+    else printf("Escaleno\n");
+}
+//16. Função para desenhar uma linha com símbolos de igual
+c
+void DesenhaLinha(int n) {
+    for (int i = 0; i < n; i++) printf("=");
+    printf("\n");
+}
+//17. Função para somar números inteiros entre dois valores
+c
+int somaIntervalo(int a, int b) {
+    int soma = 0;
+    for (int i = a + 1; i < b; i++) {
+        soma += i;
+    }
+    return soma;
+}
+//18. Função para calcular potência sem usar funções prontas
+c
+float potencia(float X, int Z) {
+    float resultado = 1;
+    for (int i = 0; i < Z; i++) {
+        resultado *= X;
+    }
+    return resultado;
+}
+//19. Função para retornar o maior fator primo de um número
+c
+int maiorFatorPrimo(int num) {
+    int maior = -1;
+    for (int i = 2; i <= num; i++) {
+        while (num % i == 0) {
+            maior = i;
+            num /= i;
+        }
+    }
+    return maior;
+}
+//20. Função para calcular o fatorial de um número
+c
+int fatorial(int n) {
+    int fat = 1;
+    for (int i = 2; i <= n; i++) {
+        fat *= i;
+    }
+    return fat;
+}
+//21. Função para contar números primos abaixo de N
+c
+int contaPrimos(int N) {
+    int count = 0;
+    for (int i = 2; i < N; i++) {
+        int ehPrimo = 1;
+        for (int j = 2; j * j <= i; j++) {
+            if (i % j == 0) {
+                ehPrimo = 0;
+                break;
+            }
+        }
+        if (ehPrimo) count++;
+    }
+    return count;
+}
+//22. Função para gerar linhas com pontos de exclamação
+c
+void exibeExclamacao(int n) {
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= i; j++) {
+            printf("!");
+        }
+        printf("\n");
+    }
+}
+//23. Função para gerar um triângulo lateral
+c
+void trianguloLateral(int n) {
+    for (int i = 1; i <= 2 * n - 1; i++) {
+        int estrelas = (i <= n) ? i : 2 * n - i;
+        for (int j = 1; j <= estrelas; j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+}
+//24. Função para gerar um triângulo centralizado
+c
+void trianguloCentralizado(int n) {
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= n - i; j++) {
+            printf(" ");
+        }
+        for (int j = 1; j <= 2 * i - 1; j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+}
+//25. Função para calcular a série S
+c
+float calculaSerie(int N) {
+    float S = 0;
+    for (int i = 1; i <= N; i++) {
+        S += (pow(i, 2) + 1) / (i + 3.0);
+    }
+    return S;
+}
+//26. Função para calcular o somatório de 1 até N
+c
+int somatorio(int n) {
+    return n * (n + 1) / 2;
+}
+//27. Função para calcular o seno usando série de Taylor
+c
+float senoTaylor(float anguloGraus) {
+    float anguloRadianos = anguloGraus * 3.141593 / 180.0;
+    float seno = 0;
+    for (int n = 0; n <= 5; n++) {
+        float termo = pow(-1, n) * pow(anguloRadianos, 2 * n + 1) / fatorial(2 * n + 1);
+        seno += termo;
+    }
+    return seno;
+}
+//28. Função para calcular o cosseno usando série de Taylor
+c
+float cossenoTaylor(float anguloGraus) {
+    float anguloRadianos = anguloGraus * 3.141593 / 180.0;
+    float cosseno = 0;
+    for (int n = 0; n <= 5; n++) {
+        float termo = pow(-1, n) * pow(anguloRadianos, 2 * n) / fatorial(2 * n);
+        cosseno += termo;
+    }
+    return cosseno;
+}
+29. Função para calcular o seno hiperbólico usando série de Taylor
+c
+float senoHiperbolicoTaylor(float anguloGraus) {
+    float anguloRadianos = anguloGraus * 3.141593 / 180.0;
+    float senoH = 0;
+    for (int n = 0; n <= 5; n++) {
+        float termo = pow(anguloRadianos, 2 * n + 1) / fatorial(2 * n + 1);
+        senoH += termo;
+    }
+    return senoH;
+}
+//30. Função para calcular o cosseno hiperbólico usando série de Taylor
+c
+float cossenoHiperbolicoTaylor(float anguloGraus) {
+    float anguloRadianos = anguloGraus * 3.141593 / 180.0;
+    float cossenoH = 0;
+    for (int n = 0; n <= 5; n++) {
+        float termo = pow(anguloRadianos, 2 * n) / fatorial(2 * n);
+        cossenoH += termo;
+    }
+    return cossenoH;
+}
+//31. Função para calcular o número neperiano usando série
+c
+float neperiano(int termos) {
+    float e = 0;
+    for (int n = 0; n <= termos; n++) {
+        e += 1.0 / fatorial(n);
+    }
+    return e;
+}
+//32. Função para simplificar uma fração
+c
+void simplifica(int *numerador, int *denominador) {
+    int mdc = 1;
+    int menor = (*numerador < *denominador) ? *numerador : *denominador;
+    for (int i = 2; i <= menor; i++) {
+        if (*numerador % i == 0 && *denominador % i == 0) {
+            mdc = i;
+        }
+    }
+    *numerador /= mdc;
+    *denominador /= mdc;
+}
+//33. Função para somar os algarismos de N!
+c
+int somaAlgarismosFatorial(int N) {
+    int fat = fatorial(N);
+    return somaAlgarismos(fat);
+}
+//34. Função para calcular o fatorial duplo
+c
+int fatorialDuplo(int N) {
+    int fat = 1;
+    for (int i = 1; i <= N; i += 2) {
+        fat *= i;
+    }
+    return fat;
+}
+//35. Função para calcular o fatorial quádruplo
+c
+int fatorialQuadruplo(int n) {
+    return fatorial(2 * n) / fatorial(n);
+}
+//36. Função para calcular o superfatorial
+c
+int superFatorial(int N) {
+    int sf = 1;
+    for (int i = 1; i <= N; i++) {
+        sf *= fatorial(i);
+    }
+    return sf;
+}
+//37. Função para calcular o hiperfatorial
+c
+int hiperFatorial(int n) {
+    int hf = 1;
+    for (int k = 1; k <= n; k++) {
+        hf *= pow(k, k);
+    }
+    return hf;
+}
+//38. Função para calcular o fatorial exponencial
+c
+int fatorialExponencial(int n) {
+    int fe = n;
+    for (int i = n - 1; i >= 1; i--) {
+        fe = pow(fe, i);
+    }
+    return fe;
+}
+//39. Função para trocar o valor de duas variáveis
+c
+void Troque(float *A, float *B) {
+    float temp = *A;
+    *A = *B;
+    *B = temp;
+}
+//40. Função para contar valores pares em um vetor
+c
+int contaPares(int vetor[], int tamanho) {
+    int count = 0;
+    for (int i = 0; i < tamanho; i++) {
+        if (vetor[i] % 2 == 0) count++;
+    }
+    return count;
+}
+//41. Função para encontrar o maior valor em um vetor
+c
+int maiorValor(int vetor[], int tamanho) {
+    int maior = vetor[0];
+    for (int i = 1; i < tamanho; i++) {
+        if (vetor[i] > maior) maior = vetor[i];
+    }
+    return maior;
+}
+//42. Função para calcular a média de um vetor de reais
+c
+float mediaVetor(float vetor[], int tamanho) {
+    float soma = 0;
+    for (int i = 0; i < tamanho; i++) {
+        soma += vetor[i];
+    }
+    return soma / tamanho;
+}
+//43. Função para preencher um vetor com números aleatórios sem repetição
+c
+void preencheAleatorioSemRepeticao(int vetor[], int tamanho) {
+    srand(time(NULL));
+    for (int i = 0; i < tamanho; i++) {
+        int num;
+        do {
+            num = rand() % (tamanho * 2) + 1;
+            int repetido = 0;
+            for (int j = 0; j < i; j++) {
+                if (vetor[j] == num) {
+                    repetido = 1;
+                    break;
+                }
+            }
+            if (!repetido) vetor[i] = num;
+        } while (vetor[i] == 0);
+    }
+}
+//44. Função para separar pares e ímpares em vetores distintos
+c
+void separaParesImpares(int X[], int A[], int B[], int tamanho, int *tamA, int *tamB) {
+    *tamA = 0;
+    *tamB = 0;
+    for (int i = 0; i < tamanho; i++) {
+        if (X[i] % 2 == 0) {
+            A[*tamA] = X[i];
+            (*tamA)++;
+        } else {
+            B[*tamB] = X[i];
+            (*tamB)++;
+        }
+    }
+}
+//45. Função para calcular o desvio padrão de um vetor
+c
+float desvioPadrao(float v[], int n) {
+    float m = mediaVetor(v, n);
+    float soma = 0;
+    for (int i = 0; i < n; i++) {
+        soma += pow(v[i] - m, 2);
+    }
+    return sqrt(soma / (n - 1));
+}
+//46. Funções para manipular vetores
+c
+void imprimeVetor(float v[], int n) {
+    for (int i = 0; i < n; i++) {
+        printf("%.2f ", v[i]);
+    }
+    printf("\n");
+}
+
+void imprimeVetorInverso(float v[], int n) {
+    for (int i = n - 1; i >= 0; i--) {
+        printf("%.2f ", v[i]);
+    }
+    printf("\n");
+}
+
+float mediaAritmetica(float v[], int n) {
+    return mediaVetor(v, n);
+}
+//47. Função para contar valores maiores que 10 em uma matriz
+c
+int contaMaioresQue10(int matriz[4][4]) {
+    int count = 0;
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 4; j++) {
+            if (matriz[i][j] > 10) count++;
+        }
+    }
+    return count;
+}
+//48. Função para somar elementos acima da diagonal principal
+c
+int somaAcimaDiagonal(int matriz[3][3]) {
+    int soma = 0;
+    for (int i = 0; i < 3; i++) {
+        for (int j = i + 1; j < 3; j++) {
+            soma += matriz[i][j];
+        }
+    }
+    return soma;
+}
+//49. Função para somar elementos abaixo da diagonal principal
+c
+int somaAbaixoDiagonal(int matriz[3][3]) {
+    int soma = 0;
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < i; j++) {
+            soma += matriz[i][j];
+        }
+    }
+    return soma;
+}
+//50. Função para somar elementos da diagonal principal
+c
+int somaDiagonalPrincipal(int matriz[3][3]) {
+    int soma = 0;
+    for (int i = 0; i < 3; i++) {
+        soma += matriz[i][i];
+    }
+    return soma;
+}
+//51. Função para somar elementos da diagonal secundária
+c
+int somaDiagonalSecundaria(int matriz[3][3]) {
+    int soma = 0;
+    for (int i = 0; i < 3; i++) {
+        soma += matriz[i][2 - i];
+    }
+    return soma;
+}
+//52. Função para calcular a transposta de uma matriz quadrada
+c
+void transposta(int matriz[][N], int transposta[][N], int n) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            transposta[j][i] = matriz[i][j];
+        }
+    }
+}
+//53. Função para verificar se uma matriz é identidade
+c
+int ehMatrizIdentidade(int matriz[][N], int n) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            if (i == j && matriz[i][j] != 1) return 0;
+            if (i != j && matriz[i][j] != 0) return 0;
+        }
+    }
+    return 1;
+}
+//54. Função para somar elementos de uma matriz 4x4
+c
+int somaMatriz(int A[4][4]) {
+    int soma = 0;
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 4; j++) {
+            soma += A[i][j];
+        }
+    }
+    return soma;
+}
+//55. Função para somar diagonais principal e secundária de uma matriz 3x3
+c
+int somaDiagonais(int A[3][3]) {
+    return somaDiagonalPrincipal(A) + somaDiagonalSecundaria(A);
+}
+//56. Função para somar elementos de uma linha de uma matriz 7x6
+c
+int somaLinha(int A[7][6], int linha) {
+    int soma = 0;
+    for (int j = 0; j < 6; j++) {
+        soma += A[linha][j];
+    }
+    return soma;
+}
+//57. Função para somar elementos de uma coluna de uma matriz 7x6
+c
+int somaColuna(int A[7][6], int coluna) {
+    int soma = 0;
+    for (int i = 0; i < 7; i++) {
+        soma += A[i][coluna];
+    }
+    return soma;
+}
+//58. Função para multiplicar duas matrizes quadradas
+c
+void multiplicaMatrizes(int A[][N], int B[][N], int C[][N], int n) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            C[i][j] = 0;
+            for (int k = 0; k < n; k++) {
+                C[i][j] += A[i][k] * B[k][j];
+            }
+        }
+    }
+}
+//59. Função para calcular o vetor união de dois vetores
+c
+void vetorUniao(int vetor1[], int vetor2[], int uniao[]) {
+    int k = 0;
+    for (int i = 0; i < 10; i++) {
+        uniao[k++] = vetor1[i];
+    }
+    for (int i = 0; i < 10; i++) {
+        int repetido = 0;
+        for (int j = 0; j < 10; j++) {
+            if (vetor2[i] == vetor1[j]) {
+                repetido = 1;
+                break;
+            }
+        }
+        if (!repetido) uniao[k++] = vetor2[i];
+    }
+}
+//60. Função para encontrar a primeira posição de uma substring
+c
+int posicaoSubstring(char str[], char substr[]) {
+    int lenStr = strlen(str);
+    int lenSub = strlen(substr);
+    for (int i = 0; i <= lenStr - lenSub; i++) {
+        int j;
+        for (j = 0; j < lenSub; j++) {
+            if (str[i + j] != substr[j]) break;
+        }
+        if (j == lenSub) return i;
+    }
+    return -1;
+}
+//61. Função para verificar se duas strings são anagramas
+c
+int saoAnagramas(char str1[], char str2[]) {
+    int count1[256] = {0};
+    int count2[256] = {0};
+    int len1 = strlen(str1);
+    int len2 = strlen(str2);
+    if (len1 != len2) return 0;
+    for (int i = 0; i < len1; i++) {
+        count1[str1[i]]++;
+        count2[str2[i]]++;
+    }
+    for (int i = 0; i < 256; i++) {
+        if (count1[i] != count2[i]) return 0;
+    }
+    return 1;
+}
+//62. Função para calcular o comprimento de uma string
+c
+void tamanho(char *str, int *strsize) {
+    *strsize = strlen(str);
+}
+//63. Função para comparar duas strings
+c
+int comparaStrings(char str1[], char str2[]) {
+    return strcmp(str1, str2) == 0;
+}
+//64. Função para concatenar duas strings
+c
+void concatenaStrings(char str1[], char str2[]) {
+    strcat(str1, str2);
+}
+65. Função para concatenar até N caracteres de uma string
+c
+void concatenaNChars(char str1[], char str2[], int N) {
+    strncat(str1, str2, N);
+}
+//66. Função para converter caractere para maiúsculo
+c
+char paraMaiusculo(char c) {
+    if (c >= 'a' && c <= 'z') {
+        return c - 32;
+    }
+    return c;
+}
+//67. Função para ler string caractere por caractere
+c
+void leString(char vetor[], int tamanho) {
+    int i = 0;
+    char c;
+    while ((c = getchar()) != '\n' && i < tamanho - 1) {
+        vetor[i++] = c;
+    }
+    vetor[i] = '\0';
+}
+//68. Função para intercalar duas strings
+c
+void intercalaStrings(char str1[], char str2[]) {
+    char temp[1000];
+    int len1 = strlen(str1);
+    int len2 = strlen(str2);
+    int maxLen = (len1 > len2) ? len1 : len2;
+    int k = 0;
+    for (int i = 0; i < maxLen; i++) {
+        if (i < len1) temp[k++] = str1[i];
+        if (i < len2) temp[k++] = str2[i];
+    }
+    temp[k] = '\0';
+    strcpy(str1, temp);
+}
+//69. Funções para operações com frações
+c
+int mdc(int a, int b) {
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
+}
+
+void simplificaFracao(int *num, int *den) {
+    int divisor = mdc(*num, *den);
+    *num /= divisor;
+    *den /= divisor;
+}
+
+void somaFracoes(int num1, int den1, int num2, int den2, int *numRes, int *denRes) {
+    *numRes = num1 * den2 + num2 * den1;
+    *denRes = den1 * den2;
+    simplificaFracao(numRes, denRes);
+}
+
+void subtraiFracoes(int num1, int den1, int num2, int den2, int *numRes, int *denRes) {
+    *numRes = num1 * den2 - num2 * den1;
+    *denRes = den1 * den2;
+    simplificaFracao(numRes, denRes);
+}
+
+void multiplicaFracoes(int num1, int den1, int num2, int den2, int *numRes, int *denRes) {
+    *numRes = num1 * num2;
+    *denRes = den1 * den2;
+    simplificaFracao(numRes, denRes);
+}
+
+void divideFracoes(int num1, int den1, int num2, int den2, int *numRes, int *denRes) {
+    *numRes = num1 * den2;
+    *denRes = den1 * num2;
+    simplificaFracao(numRes, denRes);
+}
+//70. Funções para operações com números racionais
+c
+struct racional reduz(int a, int b) {
+    struct racional r;
+    int divisor = mdc(abs(a), abs(b));
+    r.p = a / divisor;
+    r.q = b / divisor;
+    if (r.q < 0) {
+        r.p *= -1;
+        r.q *= -1;
+    }
+    return r;
+}
+
+struct racional neg(struct racional x) {
+    x.p *= -1;
+    return x;
+}
+
+struct racional soma(struct racional x, struct racional y) {
+    return reduz(x.p * y.q + y.p * x.q, x.q * y.q);
+}
+
+struct racional multi(struct racional x, struct racional y) {
+    return reduz(x.p * y.p, x.q * y.q);
+}
+
+struct racional div(struct racional x, struct racional y) {
+    return reduz(x.p * y.q, x.q * y.p);
+}
+//71. Função para verificar se um ponto está dentro de um retângulo
+c
+int dentroRet(struct Ponto* v1, struct Ponto* v2, struct Ponto* p) {
+    return (p->x >= v1->x && p->x <= v2->x && p->y >= v1->y && p->y <= v2->y);
+}
+//72. Função para somar dois vetores no R³
+c
+void soma(struct Vetor* v1, struct Vetor* v2, struct Vetor* res) {
+    res->x = v1->x + v2->x;
+    res->y = v1->y + v2->y;
+    res->z = v1->z + v2->z;
+}
+73. Funções para análise de dados de habitantes
+c
+void leDadosHabitantes(struct Habitante habitantes[], int n) {
+    for (int i = 0; i < n; i++) {
+        printf("Sexo (M/F): ");
+        scanf(" %c", &habitantes[i].sexo);
+        printf("Cor dos olhos (A/C): ");
+        scanf(" %c", &habitantes[i].olhos);
+        printf("Cor dos cabelos (L/P/C): ");
+        scanf(" %c", &habitantes[i].cabelos);
+        printf("Idade: ");
+        scanf("%d", &habitantes[i].idade);
+    }
+}
+
+float mediaIdadeOlhosCastanhosCabelosPretos(struct Habitante habitantes[], int n) {
+    int soma = 0, count = 0;
+    for (int i = 0; i < n; i++) {
+        if (habitantes[i].olhos == 'C' && habitantes[i].cabelos == 'P') {
+            soma += habitantes[i].idade;
+            count++;
+        }
+    }
+    return (count > 0) ? (float)soma / count : 0;
+}
+
+int maiorIdade(struct Habitante habitantes[], int n) {
+    int maior = habitantes[0].idade;
+    for (int i = 1; i < n; i++) {
+        if (habitantes[i].idade > maior) maior = habitantes[i].idade;
+    }
+    return maior;
+}
+
+int contaMulheresEspecificas(struct Habitante habitantes[], int n) {
+    int count = 0;
+    for (int i = 0; i < n; i++) {
+        if (habitantes[i].sexo == 'F' && habitantes[i].idade >= 18 && habitantes[i].idade <= 35 &&
+            habitantes[i].olhos == 'A' && habitantes[i].cabelos == 'L') {
+            count++;
+        }
+    }
+    return count;
+}
